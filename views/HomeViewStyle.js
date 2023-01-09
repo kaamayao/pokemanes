@@ -7,8 +7,9 @@ const styles = StyleSheet.create({
     },
     image : {
         marginTop: 'auto',
+        height: 140,
+        resizeMode: 'contain',
         marginBottom: 20,
-        height: 140
     },
     button: {
         height: 40,
