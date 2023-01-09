@@ -4,7 +4,7 @@ function MainGame({navigation}) {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
       <Text>Main Game</Text>
-    </View>
+     </View>
   );
 }
 
