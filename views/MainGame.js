@@ -1,10 +1,19 @@
-import { Button, View, Text } from 'react-native';
+import { Pressable, View, Text } from 'react-native';
+import { styles } from './MainGameViewStyle';
 
 function MainGame({navigation}) {
   return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>Main Game</Text>
-    </View>
+    <View style={styles.mainView}>
+
+    <Pressable
+      style={styles.button}
+      onPress={()}
+    >
+       <Text style={styles.buttonText}>
+          Start Game
+        </Text>
+    </Pressable>
+  </View>
   );
 }
 
